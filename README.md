@@ -104,7 +104,7 @@ Once this has been set on the servers that you are getting event logs from, you 
  
 
 
-**Full post available here: [http://www.myskypelab.com/2016/07/Centralised-Event-Viewer-Tool.html](http://www.myskypelab.com/2016/07/Centralised-Event-Viewer-Tool.html)**
+**Full post available here: [http://www.myteamslab.com/2016/07/Centralised-Event-Viewer-Tool.html](http://www.myskypelab.com/2016/07/Centralised-Event-Viewer-Tool.html)**
 
 
 
