@@ -1446,7 +1446,7 @@ function Get-ErrorLog
 					}
 					elseif($FilterExcludeRegex -ne "" -and $FilterIncludeRegex -ne "")
 					{
-						if(($EventID –notmatch $FilterExcludeRegex) -or ($EventID -match $FilterExcludeRegex))
+						if(($EventID Â–notmatch $FilterExcludeRegex) -or ($EventID -match $FilterExcludeRegex))
 						{
 							#Write-Host "Server: $computerName"
 							#Write-Host "Event ID: $EventID"
@@ -1475,7 +1475,7 @@ function Get-ErrorLog
 					}
 					elseif($FilterExcludeRegex -ne "" -and $FilterIncludeRegex -eq "")
 					{
-						if($EventID –notmatch $FilterExcludeRegex)
+						if($EventID Â–notmatch $FilterExcludeRegex)
 						{
 							#Write-Host "Server: $computerName"
 							#Write-Host "Event ID: $EventID"
@@ -1504,7 +1504,7 @@ function Get-ErrorLog
 					}
 					elseif($FilterExcludeRegex -eq "" -and $FilterIncludeRegex -ne "")
 					{
-						if($EventID –match $FilterIncludeRegex)
+						if($EventID Â–match $FilterIncludeRegex)
 						{
 							#Write-Host "Server: $computerName"
 							#Write-Host "Event ID: $EventID"
